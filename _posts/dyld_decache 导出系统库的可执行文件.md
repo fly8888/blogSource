@@ -97,6 +97,7 @@ patch < dsc_extractor.patch
 ```
 如果报错：[下载这个文件](http://7xibfi.com1.z0.glb.clouddn.com/uploads/default/original/2X/e/e4ce267c5583ef72198d2d59df2dcb2f2f62bd2e.patch)，替换文件名为dsc_extractor.patch
 
+修改 dlopen("/Applications/你的路径Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/lib/dsc_extractor.bundle", RTLD_LAZY)路径为你的xcode路径
 
 编译：
 
